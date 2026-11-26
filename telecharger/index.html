@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Télécharger Strawby</title>
+<meta name="description" content="Strawby, ta fraise de self-care : 3 petites quêtes par jour pour prendre soin de toi.">
+<meta name="apple-itunes-app" content="app-id=6834644617">
+<meta property="og:title" content="Strawby 🍓">
+<meta property="og:description" content="Prends soin de toi, une petite quête à la fois.">
+<meta name="theme-color" content="#FFF4E0">
+<style>
+  :root { --creme: #FFF4E0; --fraise: #FF2D55; --choco: #3A170A; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { min-height: 100%; background: var(--creme); color: var(--choco);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif; }
+  main { min-height: 100svh; max-width: 440px; margin: 0 auto; padding: 48px 24px 32px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 18px; }
+  .mascot { width: 190px; height: 190px; animation: hop 1.6s ease-in-out infinite; }
+  @keyframes hop { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-10px) } }
+  @media (prefers-reduced-motion: reduce) { .mascot { animation: none } }
+  h1 { font-size: 52px; font-weight: 900; color: var(--fraise); letter-spacing: -1px; }
+  .tag { font-size: 20px; font-weight: 800; line-height: 1.3; }
+  .list { list-style: none; padding: 0; font-size: 17px; font-weight: 600; line-height: 1.9; }
+  .btn { display: block; width: 100%; margin-top: 8px; padding: 19px 20px; border-radius: 999px; background: var(--choco);
+    color: #fff; font-size: 20px; font-weight: 800; text-decoration: none; box-shadow: 0 8px 22px rgba(58, 23, 10, 0.25); }
+  .btn:active { transform: scale(0.98); }
+  .help { font-size: 14px; line-height: 1.45; color: rgba(58, 23, 10, 0.7); max-width: 320px; }
+  .help b { color: var(--choco); }
+  footer { font-size: 12px; color: rgba(58, 23, 10, 0.5); }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mascot" role="img" aria-label="Strawby, une petite fraise qui sourit"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157 157"><path d="M79 149.5C64 148 47 136 36 120C27 106 21 90 21 77C21 64 27 56 35 52C50 43 108 43 122 51C129 57 132 66 132 78C132 92 128 104 121 115C110 132 94 148 79 149.5Z" fill="#2B0D01" stroke="#2B0D01" stroke-width="11" stroke-linejoin="round"/><path d="M36 103C33 95 24 87 16 86C9.5 85.5 6 90 7 96C8.5 104 20 111 33 117Z" fill="#2B0D01" stroke="#2B0D01" stroke-width="11" stroke-linejoin="round"/><path d="M121 103C124 95 133 87 141 86C147.5 85.5 151 90 150 96C148.5 104 137 111 124 117Z" fill="#2B0D01" stroke="#2B0D01" stroke-width="11" stroke-linejoin="round"/><path d="M79 149.5C64 148 47 136 36 120C27 106 21 90 21 77C21 64 27 56 35 52C50 43 108 43 122 51C129 57 132 66 132 78C132 92 128 104 121 115C110 132 94 148 79 149.5Z" fill="#FD3D40"/><path d="M36 103C33 95 24 87 16 86C9.5 85.5 6 90 7 96C8.5 104 20 111 33 117Z" fill="#FD3D40"/><path d="M121 103C124 95 133 87 141 86C147.5 85.5 151 90 150 96C148.5 104 137 111 124 117Z" fill="#FD3D40"/><path d="M33.5 102Q31 95 25.5 89" fill="none" stroke="#2B0D01" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M123.5 102Q126 95 131.5 89" fill="none" stroke="#2B0D01" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="43" cy="66" rx="3.8" ry="6.4" transform="rotate(25 43 66)" fill="#FDEF4B"/><ellipse cx="113" cy="66" rx="3.8" ry="6.4" transform="rotate(-25 113 66)" fill="#FDEF4B"/><ellipse cx="61.5" cy="124" rx="4.2" ry="7" transform="rotate(-15 61.5 124)" fill="#FDEF4B"/><ellipse cx="96.5" cy="124" rx="4.2" ry="7" transform="rotate(20 96.5 124)" fill="#FDEF4B"/><path d="M73.5 32.5C73.5 32.5 73.75 25.25 74.5 22C75.25 18.75 76.42 15.33 78 13C79.58 10.67 81.83 8.92 84 8C86.17 7.08 89 7 91 7.5C93 8 95.08 9.58 96 11C96.92 12.42 97 14.25 96.5 16C96 17.75 94.33 19.58 93 21.5C91.67 23.42 89.42 25.7 88.5 27.5C87.58 29.3 87.5 32.3 87.5 32.3C87.5 32.3 92.92 30.13 96 29.5C99.08 28.87 102.5 28.33 106 28.5C109.5 28.67 114 29.33 117 30.5C120 31.67 122.42 33.58 124 35.5C125.58 37.42 126.83 39.83 126.5 42C126.17 44.17 124.25 47.08 122 48.5C119.75 49.92 116 50.45 113 50.5C110 50.55 106.75 49.63 104 48.8C101.25 47.97 96.5 45.5 96.5 45.5C96.5 45.5 97.67 48.58 97.5 51C97.33 53.42 96.92 57.25 95.5 60C94.08 62.75 91.58 65.75 89 67.5C86.42 69.25 83.17 70.33 80 70.5C76.83 70.67 72.92 70 70 68.5C67.08 67 64.08 64.08 62.5 61.5C60.92 58.92 60.42 55.8 60.5 53C60.58 50.2 63 44.7 63 44.7C63 44.7 58 47.48 55 48.5C52 49.52 48.17 50.47 45 50.8C41.83 51.13 38.33 51.13 36 50.5C33.67 49.87 31.92 48.58 31 47C30.08 45.42 30 43 30.5 41C31 39 32.08 36.75 34 35C35.92 33.25 38.83 31.67 42 30.5C45.17 29.33 49.33 28.17 53 28C56.67 27.83 60.58 28.75 64 29.5C67.42 30.25 73.5 32.5 73.5 32.5Z" fill="#2B0D01" stroke="#2B0D01" stroke-width="11" stroke-linejoin="round"/><path d="M73.5 32.5C73.5 32.5 73.75 25.25 74.5 22C75.25 18.75 76.42 15.33 78 13C79.58 10.67 81.83 8.92 84 8C86.17 7.08 89 7 91 7.5C93 8 95.08 9.58 96 11C96.92 12.42 97 14.25 96.5 16C96 17.75 94.33 19.58 93 21.5C91.67 23.42 89.42 25.7 88.5 27.5C87.58 29.3 87.5 32.3 87.5 32.3C87.5 32.3 92.92 30.13 96 29.5C99.08 28.87 102.5 28.33 106 28.5C109.5 28.67 114 29.33 117 30.5C120 31.67 122.42 33.58 124 35.5C125.58 37.42 126.83 39.83 126.5 42C126.17 44.17 124.25 47.08 122 48.5C119.75 49.92 116 50.45 113 50.5C110 50.55 106.75 49.63 104 48.8C101.25 47.97 96.5 45.5 96.5 45.5C96.5 45.5 97.67 48.58 97.5 51C97.33 53.42 96.92 57.25 95.5 60C94.08 62.75 91.58 65.75 89 67.5C86.42 69.25 83.17 70.33 80 70.5C76.83 70.67 72.92 70 70 68.5C67.08 67 64.08 64.08 62.5 61.5C60.92 58.92 60.42 55.8 60.5 53C60.58 50.2 63 44.7 63 44.7C63 44.7 58 47.48 55 48.5C52 49.52 48.17 50.47 45 50.8C41.83 51.13 38.33 51.13 36 50.5C33.67 49.87 31.92 48.58 31 47C30.08 45.42 30 43 30.5 41C31 39 32.08 36.75 34 35C35.92 33.25 38.83 31.67 42 30.5C45.17 29.33 49.33 28.17 53 28C56.67 27.83 60.58 28.75 64 29.5C67.42 30.25 73.5 32.5 73.5 32.5Z" fill="#AED936"/><ellipse cx="43" cy="103" rx="10" ry="8.5" fill="#FC95A0"/><ellipse cx="113" cy="103" rx="10" ry="8.5" fill="#FC95A0"/><circle cx="53.5" cy="87" r="12" fill="#2B0D01"/><path d="M56.5 77.5Q57.7 82.3 62.5 83.5Q57.7 84.7 56.5 89.5Q55.3 84.7 50.5 83.5Q55.3 82.3 56.5 77.5Z" fill="#FFFFFF"/><circle cx="48.5" cy="92" r="2" fill="#FFFFFF"/><circle cx="103" cy="87" r="12" fill="#2B0D01"/><path d="M106 77.5Q107.2 82.3 112 83.5Q107.2 84.7 106 89.5Q104.8 84.7 100 83.5Q104.8 82.3 106 77.5Z" fill="#FFFFFF"/><circle cx="98" cy="92" r="2" fill="#FFFFFF"/><defs><clipPath id="m-super"><path d="M63 94Q78.5 99 94 94Q93 116 78.5 116Q64 116 63 94Z"/></clipPath></defs><path d="M63 94Q78.5 99 94 94Q93 116 78.5 116Q64 116 63 94Z" fill="#E23741"/><ellipse cx="78.5" cy="111" rx="9.5" ry="5.5" fill="#FD6A79" clip-path="url(#m-super)"/><path d="M63 94Q78.5 99 94 94Q93 116 78.5 116Q64 116 63 94Z" fill="none" stroke="#2B0D01" stroke-width="3.4" stroke-linejoin="round"/><path d="M16 21Q17.8 28.2 25 30Q17.8 31.8 16 39Q14.2 31.8 7 30Q14.2 28.2 16 21Z" fill="#FFC93C"/><path d="M8 52Q9.2 56.8 14 58Q9.2 59.2 8 64Q6.8 59.2 2 58Q6.8 56.8 8 52Z" fill="#FFC93C"/><path d="M141 13Q142.8 20.2 150 22Q142.8 23.8 141 31Q139.2 23.8 132 22Q139.2 20.2 141 13Z" fill="#FFC93C"/><path d="M150 46Q151.2 50.8 156 52Q151.2 53.2 150 58Q148.8 53.2 144 52Q148.8 50.8 150 46Z" fill="#FFC93C"/></svg></div>
+  <h1>Strawby</h1>
+  <p class="tag">Prends soin de toi,<br>une petite quête à la fois.</p>
+  <ul class="list">
+    <li>🍓 3 mini quêtes par jour</li>
+    <li>🎁 Un coffre surprise</li>
+    <li>🌈 Un petit monde qui grandit avec toi</li>
+  </ul>
+  <a class="btn" id="store" href="https://apps.apple.com/fr/app/strawby-compagnon-bien-%C3%AAtre/id6834644617">Télécharger sur l’App Store</a>
+  <p class="help">Le bouton ne s’ouvre pas ? Touche <b>•••</b> en haut à droite, puis <b>« Ouvrir dans le navigateur »</b>.</p>
+  <footer>Sur iPhone · <a href="../">Politique de confidentialité</a></footer>
+</main>
+</body>
+</html>
